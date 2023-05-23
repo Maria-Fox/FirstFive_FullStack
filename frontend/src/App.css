@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  background-color: #1c1f2e;
+  min-height: 100vh;
+  min-width: 100vw;
+};
+
+
+
+/* #AppID{
+  /* background-color: black; */
+  /* height: '100vh';
+  min-height : '100vh' */
+

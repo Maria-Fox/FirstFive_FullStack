@@ -1,0 +1,32 @@
+#LandingPage-Card{
+  font-family: Chalkduster;
+  color: whitesmoke;
+  background-color: #1c1f2e;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../Images/landingPage.webp");
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  background-position: center;
+}
+
+#backgroundimg-div{
+  width: 100vw;
+  height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title{
+  font-size: 3rem;
+  width: 50vw;
+}
+
+#list{
+  font-size: medium;
+  position: absolute;
+  left: 10%;
+  width: 70vw;
+}

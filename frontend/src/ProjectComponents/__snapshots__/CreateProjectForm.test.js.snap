@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render CreateProjectForm Snapshot- Valid user renders create project form 1`] = `
+<DocumentFragment>
+  <h1
+    class="text-center text-white pt-2 mt-2"
+  >
+    Create a Project
+  </h1>
+  <div
+    class="container card"
+  >
+    <p
+      class="p-3 card-text"
+    >
+      Important: You are automatically "matched" with any project you create. Then, as the project owner you may choose whether or not you want to be a project member. If you simply want to suggest a project to the community you can later transfer ownership to another interested user.  
+    </p>
+    <div
+      class="card-body"
+    >
+      <form
+        class=""
+      >
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+            for="name"
+          >
+            Project Name
+            <input
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Workout App"
+              required=""
+              type="text"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+            for="project_desc"
+          >
+            Project Description
+            <textarea
+              class="form-control"
+              cols="35"
+              id="project_desc"
+              name="project_desc"
+              placeholder="Create a full-stack application where users can track their workouts!"
+              required=""
+              rows="8"
+            />
+          </label>
+        </div>
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+            for="timeframe"
+          >
+            Timeframe
+            <input
+              class="form-control"
+              id="timeframe"
+              name="timeframe"
+              placeholder="3 weeks"
+              required=""
+              type="text"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+            for="github_repo"
+          >
+            Github Repo
+            <input
+              class="form-control"
+              id="github_repo"
+              name="github_repo"
+              placeholder="https://github.com/"
+              type="text"
+              value=""
+            />
+          </label>
+        </div>
+        <button
+          class="btn btn-secondary"
+        >
+           Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

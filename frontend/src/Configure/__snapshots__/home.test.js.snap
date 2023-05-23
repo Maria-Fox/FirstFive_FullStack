@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Creates a Home snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="bg-light text-center  container card"
+      id="home-div"
+    >
+      <div
+        class="alert alert-success fade"
+        role="alert"
+      >
+        Hi, 
+      </div>
+      <div
+        class="border-0 card"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

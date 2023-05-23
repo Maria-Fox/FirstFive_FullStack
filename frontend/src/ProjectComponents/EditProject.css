@@ -1,0 +1,15 @@
+#approved{
+  max-width: 20vw;
+  max-height: 15vh;
+  color: whitesmoke;
+  background-color: darkgreen;
+  display: inline-block;
+};
+
+#notApproved{
+  max-width: 20vw;
+  max-height: 15vh;
+  color: whitesmoke;
+  background-color: darkred;
+  display: inline-block;
+}

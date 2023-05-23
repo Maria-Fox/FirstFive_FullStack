@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading screen for valid user 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="text-center"
+    >
+      Update Profile
+    </h1>
+    <div
+      class="container text-center card"
+    >
+      <p>
+        Loading....
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshot - Loading screen for valid user 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="text-center"
+    >
+      Update Profile
+    </h1>
+    <div
+      class="container text-center card"
+    >
+      <p>
+        Loading....
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshot- should populate form w current userData 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="text-center"
+    >
+      Update Profile
+    </h1>
+    <div
+      class="container text-center card"
+    >
+      <p>
+        Loading....
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering edit project form Snapshot- matches project edit. 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="container"
+    >
+      <h1
+        class="text-center text-white pt-2 mt-2"
+      >
+        Update: 
+      </h1>
+      <div
+        class="card"
+      >
+        <form
+          class="p-4"
+        >
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="name"
+            >
+              Project Name
+              <input
+                class="form-control"
+                id="name"
+                name="name"
+                required=""
+                type="text"
+                value=""
+              />
+            </label>
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="owner_username"
+            >
+              Project Owner
+              <input
+                class="form-control"
+                id="owner_username"
+                name="owner_username"
+                required=""
+                type="text"
+                value=""
+              />
+            </label>
+          </div>
+          <div>
+            <button
+              class="btn btn-secondary"
+              id="notApproved"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-circle-check "
+                data-icon="circle-check"
+                data-prefix="far"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M243.8 339.8C232.9 350.7 215.1 350.7 204.2 339.8L140.2 275.8C129.3 264.9 129.3 247.1 140.2 236.2C151.1 225.3 168.9 225.3 179.8 236.2L224 280.4L332.2 172.2C343.1 161.3 360.9 161.3 371.8 172.2C382.7 183.1 382.7 200.9 371.8 211.8L243.8 339.8zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <p
+              style="display: inline-block;"
+            >
+              I acknowledge once I transfer ownership I will not have access to update any project details including project members.
+            </p>
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="project_desc"
+            >
+              Project Description
+              <textarea
+                class="form-control"
+                cols="35"
+                id="project_desc"
+                name="project_desc"
+                required=""
+                rows="8"
+              />
+            </label>
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="timeframe"
+            >
+              Timeframe
+              <input
+                class="form-control"
+                id="timeframe"
+                name="timeframe"
+                placeholder="3 weeks"
+                required=""
+                type="text"
+                value=""
+              />
+            </label>
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="github_repo"
+            >
+              Github Repo
+              <input
+                class="form-control"
+                id="github_repo"
+                name="github_repo"
+                type="text"
+                value=""
+              />
+            </label>
+          </div>
+          <button
+            class="btn btn-secondary"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

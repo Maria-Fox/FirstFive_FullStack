@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendered RegisterForm correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h2
+      class="mb-3 text-white mt-5"
+    >
+      Register
+    </h2>
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <form
+          class="container"
+        >
+          <div
+            class="mb-3"
+          >
+            <label
+              class="mt-2 form-label"
+              for="username"
+            >
+              Username
+            </label>
+            <input
+              class="form-control"
+              id="username"
+              name="username"
+              placeholder="Username"
+              type="text"
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="mt-2 form-label"
+              for="password"
+            >
+              Password
+            </label>
+            <input
+              autocomplete="on"
+              class="RegisterInput form-control"
+              id="password"
+              minlength="6"
+              name="password"
+              placeholder="@ least 6 characters"
+              type="password"
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="mt-2 form-label"
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="email@aol.com"
+              required=""
+              type="text"
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="mt-2 form-label"
+              for="bio"
+            >
+              Bio
+            </label>
+            <input
+              class="form-control"
+              id="bio"
+              name="bio"
+              placeholder="CS student"
+              type="text"
+            />
+          </div>
+          <button
+            class="btn btn-secondary"
+            type="button"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

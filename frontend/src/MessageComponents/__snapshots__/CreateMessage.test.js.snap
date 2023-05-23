@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot- CreateMsg forms renders for valid user 1`] = `
+<DocumentFragment>
+  <h1
+    style="text-align: center;"
+  >
+    New Message
+  </h1>
+  <div
+    class="card"
+  >
+    <form
+      class=""
+    >
+      <p
+        style="color: navy; font-size: 1.5rem;"
+      >
+        Message to: 
+      </p>
+      <label
+        class="form-label"
+        for="body"
+      >
+        <textarea
+          class="form-control"
+          cols="100"
+          id="body"
+          name="body"
+          placeholder="Hi - I am interested in hearing more about your project. I have frontend expereince. Can you use a new project member?"
+          required=""
+          rows="10"
+        />
+      </label>
+      <br />
+      <button
+        class="btn btn-secondary"
+      >
+        Send
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

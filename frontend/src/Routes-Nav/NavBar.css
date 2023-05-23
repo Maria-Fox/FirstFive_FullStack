@@ -1,0 +1,13 @@
+.NavBar-item{
+  color:whitesmoke;
+  padding: 10px;
+  text-decoration: none;
+};
+
+@media screen and (max-width: 660px) {
+  #navBar-nav {
+    display: flex;
+    justify-content: space space-evenly;
+    font-size: 12px;
+  }
+}

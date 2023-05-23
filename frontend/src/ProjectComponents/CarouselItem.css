@@ -1,0 +1,144 @@
+#card-container{
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "overlap";
+  top: 50%;
+  left: 50%;
+  /* border: 2px solid purple; */
+}
+
+
+
+#main-card{
+  padding: 20px;
+  width: 35vmin;
+  aspect-ratio: 4/7;
+  border-radius: 1vmin; 
+  align-self: center;
+  justify-self: center;
+  /* grid-area: overlap;*/
+  position: relative; 
+  /* z-index: 3; */
+  /* top: 30%; */
+  max-height: 60vh;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 600px) {
+  #main-card {
+    width: 60%
+  }
+}
+
+.Match-Button-Options{
+  margin-top: 10vmin;
+  display: flex;
+  justify-content: space-around;
+}
+
+.MatchOption {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SkipButton{
+  font-size: 2.5vmin;
+  border: 0.4vmin solid rgb(200, 200, 200);
+  border-radius: 100%;
+  color: red;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+  background-color: transparent;
+  height: 7vmin;
+  width: 7vmin;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .SkipButton {
+    font-size: 7vmin;
+    border: 0.4vmin solid rgb(200, 200, 200);
+    border-radius: 100%;
+    color: red;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    background-color: transparent;
+    height: 10vmin;
+    width: 10vmin;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+}
+
+.SkipButton:hover{
+  background-color: rgba(211, 78, 78, 0.66);
+  color: whitesmoke;
+}
+
+.MatchButton{
+  font-size: 2.5vmin;
+  border: 0.4vmin solid rgb(200, 200, 200);
+  border-radius: 100%;
+  color: green;
+  background-color: transparent;
+  height: 7vmin;
+  width: 7vmin;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .MatchButton {
+    font-size: 7vmin;
+    border: 0.4vmin solid rgb(200, 200, 200);
+    border-radius: 100%;
+    color: green;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    background-color: transparent;
+    height: 10vmin;
+    width: 10vmin;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+}
+
+.MatchButton:hover{
+  background-color: rgba(77, 137, 55, 0.66);
+  color: whitesmoke;
+}
+
+#CarouselItem-div-BG-1{
+  margin: 20px;
+  padding: 20px;
+  width: 30vmin;
+  aspect-ratio: 4/7;
+  border-radius: 1vmin; 
+  align-self: left;
+  justify-self: left;
+  grid-area: overlap;
+  position: absolute;
+  z-index: 2;
+  background-image: url("../Images/MatchingCards-Chalkboard.jpg");
+  background-position: left;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+#CarouselItem-div-BG-2{
+
+  margin: 20px;
+  padding: 20px;
+  width: 30vmin;
+  aspect-ratio: 4/7;
+  border-radius: 1vmin; 
+  align-self: right;
+  justify-self: right;
+  grid-area: overlap;
+  position: absolute;
+  z-index: 1;
+  background-image: url("../Images/MatchingCards-Chalkboard.jpg");
+  background-position: right;
+  background-size: cover;
+  color: whitesmoke;
+
+}
